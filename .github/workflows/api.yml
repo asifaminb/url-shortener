@@ -48,7 +48,7 @@ jobs:
       - name: Download to Azure Web App
         uses: azure/webapps-deploy@v3
         with: 
-          app-name: ${{vars.API_RESOURCE_NAME}}
+          app-name: api-btx7wpuk2rf6e
           slot-name: 'Production'
           publish-profile: ${{secrets.AZURE_API_PUBLISH_PROFILE}}
           package: .
